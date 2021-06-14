@@ -2,3 +2,8 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 // @import "variables";
+
+.jumbotron {
+  background-image: url("../images/woodruff.jpg");
+  background-size: cover;
+}
