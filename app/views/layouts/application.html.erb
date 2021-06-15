@@ -8,45 +8,72 @@
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
-
+    
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"> 
   </head>
+
   <header>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-  <img class="navbar-brand vector" <%= image_tag "shield.svg" %> alt="emory shield logo"></img>
-    <a class="navbar-brand" href="https://libraries.emory.edu" target=_blank>Emory Libraries</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Select A Library
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Business</a></li>
-            <li><a class="dropdown-item" href="#">Science Commons</a></li>
-            <li><a class="dropdown-item" href="#">Health Sciences</a></li>
-            <li><a class="dropdown-item" href="#">Law</a></li>
-            <li><a class="dropdown-item" href="#">Rose</a></li>
-            <li><a class="dropdown-item" href="#">Music & Media</a></li>
-            <li><a class="dropdown-item" href="#">Oxford College</a></li>
-            <li><a class="dropdown-item" href="#">Library Service Center</a></li>
-          </ul>
-        </li>
-      </ul>
+  <div class="c-nav-utility">
+  <nav class="navbar navbar-expand-lg">
+  <div class="c-top-left text-uppercase"
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li>
+        <a class="nav-link active" aria-current="page" href="#">Initiatives</a>
+      </li>
+      <li>
+        <a class="nav-link" href="#">Instructional Support</a>
+      </li>
+    </ul>
     </div>
+    
+  </nav>
   </div>
-</nav>
+  <div class="container-fluid lower-menu-left">
+  <nav class="navbar navbar-expand-lg">
+  <a class="navbar-brand" href="https://libraries.emory.edu" target="_blank">Emory Libraries</a>
+    <img class="vector" alt="emory shield logo" <%= image_tag "shield.svg" %></img>
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-uppercase" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Select A Library
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="#">Business</a></li>
+          <li><a class="dropdown-item" href="#">Science Commons</a></li>
+          <li><a class="dropdown-item" href="#">Health Sciences</a></li>
+          <li><a class="dropdown-item" href="#">Law</a></li>
+          <li><a class="dropdown-item" href="#">Rose</a></li>
+          <li><a class="dropdown-item" href="#">Music & Media</a></li>
+          <li><a class="dropdown-item" href="#">Oxford College</a></li>
+          <li><a class="dropdown-item" href="#">Library Service Center</a></li>
+        </ul>
+      </li>
+    </ul>
+    </nav>
+  </div>
+  <div class="lower-menu-right">
+  <nav class="navbar navbar-expand-lg">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">Materials</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Tools</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Research</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Using The Library</a>
+      </li>
+    </ul>
+    </nav>
+  </div>
+
   </header>
 
   <div>

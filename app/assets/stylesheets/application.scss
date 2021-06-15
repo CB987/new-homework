@@ -29,11 +29,23 @@ h6 {
   font-family: "Cardo", serif;
 }
 
-.navbar {
+.c-nav-utility {
   color: #004990;
+}
+
+.navbar {
+  //   color: #004990;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
 }
+
+.dropdown {
+  color: #5387f7;
+}
+
+// .nav-item {
+//     $text-uppercase;
+// }
 
 .vector {
   position: absolute;
@@ -42,5 +54,7 @@ h6 {
   top: 35.73%;
   bottom: 7.32%;
 }
+
+@import "./home.scss";
 
 @import "bootstrap";
