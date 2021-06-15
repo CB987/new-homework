@@ -29,12 +29,12 @@ h6 {
   font-family: "Cardo", serif;
 }
 
-.c-nav-utility {
-  color: #004990;
+.navbar-header {
+  text-decoration: none;
 }
 
 .navbar {
-  //   color: #004990;
+  color: #004990;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
 }
@@ -43,9 +43,16 @@ h6 {
   color: #5387f7;
 }
 
-// .nav-item {
-//     $text-uppercase;
-// }
+.c-brand {
+  position: absolute;
+  left: 8.68%;
+  right: 78.19%;
+  top: 40.66%;
+  bottom: 19.78%;
+  font-size: 24px;
+  line-height: 36px;
+  color: #091c44;
+}
 
 .vector {
   position: absolute;
