@@ -32,8 +32,9 @@ h6 {
   font-family: "Cardo", serif;
 }
 
-.navbar-header {
-  text-decoration: none;
+.c-upper-nav {
+  font-size: 11px;
+  color: #004990;
 }
 
 .navbar {
@@ -55,12 +56,4 @@ h6 {
   font-size: 24px;
   line-height: 36px;
   color: #091c44;
-}
-
-.vector {
-  position: absolute;
-  left: 2.13%;
-  right: 92.4%;
-  top: 35.73%;
-  bottom: 7.32%;
 }
